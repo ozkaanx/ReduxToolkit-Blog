@@ -1,0 +1,39 @@
+.navbar-menu {
+  position: relative;
+  padding-top: 12px;
+  padding-left: 50px;
+  &-list {
+    display: flex;
+    position: relative;
+    padding-left: 0;
+    .menu-item {
+      padding: 6px 15px;
+      margin-right: 5px;
+      > a {
+        color: #203656;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        padding-bottom: 2px;
+        &.active {
+          border-bottom: 2px solid none;
+          background: #b993d6;
+          background: -webkit-linear-gradient(to right, #8ca6db, #b993d6);
+          background: linear-gradient(to left, #5389f5, #d39ffcfa);
+          padding: 8px 20px;
+          border-radius: 20px;
+          font-weight: bold;
+          color: white;
+          &:hover {
+            color: white;
+          }
+        }
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    display: none;
+  }
+}

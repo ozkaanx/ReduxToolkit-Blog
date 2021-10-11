@@ -1,0 +1,16 @@
+.social-box {
+  position: relative;
+  padding-right: 50px;
+  i:not(:last-child) {
+    margin-right: 16px;
+  }
+  > i {
+    font-size: 16px;
+    cursor: pointer;
+    transition: 500ms color;
+    color: #203656;
+    &:hover {
+      color: crimson;
+    }
+  }
+}

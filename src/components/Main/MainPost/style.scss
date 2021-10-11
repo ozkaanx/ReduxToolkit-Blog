@@ -1,0 +1,115 @@
+a {
+  text-decoration: none;
+  .post-card {
+    border: 1px solid #ebebeb;
+    margin-bottom: 40px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    .card-img {
+      position: relative;
+      height: 400px;
+      overflow: hidden;
+      display: flex;
+      border-radius: 0;
+      > img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    .card-info {
+      padding: 40px 50px 40px;
+      .card-top {
+        display: flex;
+        justify-content: space-between;
+        &-date {
+          font-size: 14px;
+          font-family: "Poppins", sans-serif;
+          color: #9faabb;
+        }
+        &-comment {
+          font-size: 14px;
+          font-family: "Poppins", sans-serif;
+          color: #9faabb;
+          > i {
+            font-size: 15px;
+          }
+        }
+      }
+      .card-detail {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        word-wrap: break-word;
+        position: relative;
+        &-title {
+          font-size: 30px;
+          font-family: "Poppins", sans-serif;
+          color: #203656;
+          font-weight: 700;
+          margin-top: 16px;
+          margin-bottom: 16px;
+          line-height: 1.5;
+        }
+        &-text {
+          font-family: "Poppins", sans-serif;
+          font-size: 16px;
+          color: #8f9bad;
+          line-height: 1.8;
+        }
+      }
+    }
+    .card-bottom {
+      display: flex;
+      justify-content: space-between;
+      color: black;
+      padding: 20px 0;
+      margin: 5px 50px;
+      border-top: 1px solid #ebebeb;
+      .social-box {
+        > i {
+          margin-right: 15px;
+          color: #8f9bad;
+          font-size: 15px;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+      &-button {
+        > a {
+          font-size: 15px;
+          font-family: "Poppins", sans-serif;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-img {
+    height: 300px !important;
+    
+  }
+  .card-bottom {
+    margin: 5px 30px !important;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+  .card-info{
+    padding: 30px !important;
+    .card-detail{
+      .card-detail-title{
+        font-size: 20px !important;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .card-img {
+    height: 250px !important;
+    
+  }
+}

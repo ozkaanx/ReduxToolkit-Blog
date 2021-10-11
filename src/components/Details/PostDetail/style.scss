@@ -1,0 +1,110 @@
+.details-fix {
+  position: sticky;
+  top: 5px;
+  margin-bottom: 40px;
+}
+
+.details-top {
+  position: relative;
+  margin-bottom: 30px;
+  .details-title {
+    font-size: 36px;
+    color: #203656;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  .details-date {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin: 20px 0;
+    > span {
+      color: #9faabb;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+      letter-spacing: 1px;
+      font-size: 13px;
+    }
+  }
+}
+.detail-img {
+  height: 400px;
+  max-height: 400px;
+  display: flex;
+  position: relative;
+  margin-bottom: 40px;
+  > img {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: baseline;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+.detail-description {
+  > p {
+    color: #707a88;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+}
+
+.details-bottom {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: solid 1px #ebebeb;
+  .bottom-tag {
+    position: relative;
+    margin-top: 10px;
+    > span {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      border-radius: 30px;
+      color: #8f9bad;
+      border: solid 1px #ebebeb;
+      font-size: 13px;
+      cursor: pointer;
+      transition: 300ms all;
+      &:hover {
+        border: solid 1px crimson;
+        color: crimson;
+      }
+    }
+  }
+  .details-social {
+    > .social-box {
+      color: #8f9bad;
+      > i {
+        font-size: 16px;
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .details-title {
+    font-size: 25px !important;
+  }
+  .detail-img {
+    height: 300px;
+  }
+  .details-bottom {
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+    justify-content: center;
+    text-align: center;
+  }
+  .social-box {
+    padding-right: 0;
+  }
+}

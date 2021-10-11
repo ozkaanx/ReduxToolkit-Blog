@@ -1,0 +1,16 @@
+.menu-box{
+    position: relative;
+    .search-btn,.bar-btn{
+        padding: 6px 11px;
+        background: #B993D6;  
+        background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  
+        background: linear-gradient(to left, #5389f5, #d39ffcfa); 
+        border-radius: 50%;
+        color: white;
+        font-weight: bold;
+        justify-content: center;
+    }
+    .search-btn{
+        margin-right: 10px;
+    }
+}

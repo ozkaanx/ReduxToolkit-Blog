@@ -1,0 +1,25 @@
+.main-content {
+  padding-top: 36px;
+  > .container-lg {
+    max-width: 1138px;
+  }
+  .main-title {
+    color: #203656;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    font-size: 24px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 3px;
+    border-bottom: 3px;
+    border-style: solid;
+    width: 120px;
+    border-image: linear-gradient(to left, #ecf2ff2d, #d39ffcfa) 1;
+  }
+  .sidebar-fix{
+    position: sticky;
+    top: 5px;
+    margin-bottom: 10px;
+  }
+}

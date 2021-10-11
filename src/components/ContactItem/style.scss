@@ -1,0 +1,41 @@
+.contact-item {
+    display: flex;
+    border: solid 1px #ebebeb;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    align-items: center;
+    > .item-icon {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(to left, #5389f5, #d39ffcfa);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      > svg {
+        font-size: 25px;
+        color: white;
+      }
+    }
+    .item-details{
+      margin-left: 20px;
+      line-height: 1.4;
+      >h3{
+        font-size: 18px;
+        color: #203656;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        margin: 5px 0;
+
+
+      }
+      >p{
+        color: #8F9BAD;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        margin: 0 !important;
+
+      }
+    }
+  }

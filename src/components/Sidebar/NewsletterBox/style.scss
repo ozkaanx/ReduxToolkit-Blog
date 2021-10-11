@@ -1,0 +1,62 @@
+.newsletter-box {
+  border: solid 1px #ebebeb;
+  padding: 35px 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  &-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #203656;
+    margin-bottom: 20px;
+  }
+  > p {
+    color: #203656;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 600;
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    form{
+        >input{
+            width: 100%;
+            margin-bottom: 10px;
+            border: solid 1px #EBEBEB;
+            border-radius: 25px;
+            padding: 10px 30px;
+            color: #8F9BAD;
+            font-size: 14px;
+            box-shadow: none;
+            text-align: center;
+            transition: 600ms all;
+            &:focus{
+                border: solid 1px crimson;
+                color: black;
+            }
+        }
+        >button{
+            width: 100%;
+            padding: 8px 0;
+            border-radius: 25px;
+            margin: 10px 0 20px 0;
+            background: linear-gradient(to left, #5389f5, #d39ffcfa);
+            color: white;
+
+        }
+    }
+    >p{
+        font-size: 13px;
+        >span{
+            color: black;
+            font-weight: bold;
+        }
+    }
+
+  }
+}

@@ -1,0 +1,57 @@
+// ***** About Css **** //
+.about-header {
+  width: 100%;
+  background-color: #f1f8ff;
+  padding: 40px 0;
+  text-align: center;
+  > h3 {
+    color: #203656;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 20px 0;
+  }
+}
+.about-section {
+  position: sticky;
+  top: 5px;
+  border: solid 1px #ebebeb;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  &-img {
+    padding-bottom: 30px;
+    > img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+  &-text {
+    position: relative;
+    line-height: 1.8;
+    > p {
+      font-family: "Roboto", sans-serif;
+      color: #707a88;
+      font-size: 16px;
+    }
+  }
+  &-bottom {
+    margin-top: 30px;
+    padding: 24px 0;
+    border-top: solid 1px #ebebeb;
+  }
+}
+
+// ***** Contact Css **** //
+
+.contact-section {
+  position: relative;
+  margin-top: 60px;
+  .comment-container{
+    margin-top: 0;
+    margin-bottom: 100px;
+    padding-left: var(--bs-gutter-x,.75rem);
+  }
+}

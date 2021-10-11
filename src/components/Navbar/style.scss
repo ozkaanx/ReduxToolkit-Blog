@@ -1,0 +1,29 @@
+.navbar {
+  position: relative;
+  padding: 26px 0;
+  .navbar-left {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0;
+    align-items: center;
+  }
+  .navbar-right{
+      display: flex;
+      align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  .navbar-left{
+    >.navbar-menu{
+      display: none;
+    }
+  }
+  .navbar-right{
+    .social-box{
+      display: none;
+    }
+  }
+}
