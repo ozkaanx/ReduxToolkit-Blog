@@ -10,15 +10,13 @@ function Details() {
   const [selectNes, setSelectNews] = useState();
   const { news_id } = useParams();
 
-
   useEffect(() => {
     axios(
-      `https://newsapi.org/v2/top-headlines?pageSize=4&country=tr&category=technology&apiKey=06cdb9957b82428fb3b6f762aeb1fa8a`
+    `https://inshortsapi.vercel.app/news?category=technology`
     )
       .then((res) => res.data)
-      .then((data) => setSelectNews(data.articles[news_id]));
+      .then((data) => setSelectNews(data.data[news_id]));
   }, [news_id]);
-
 
   return (
     <>

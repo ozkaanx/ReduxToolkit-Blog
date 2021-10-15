@@ -7,7 +7,7 @@ function Loading() {
         className="loading-gif"
         style={{ margin: "auto", display: "flex", justifyContent: "center" }}
       >
-        <img className="img-fluid" src={loading}></img>
+        <img className="img-fluid" src={loading} alt=""></img>
       </div>
     </div>
   );

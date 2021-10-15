@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.scss";
-import recenticon from "img/recenticon.png";
 import { RecentData } from "./RecentData";
 function RecentBox() {
   return (

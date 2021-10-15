@@ -18,7 +18,7 @@ function About() {
           <div className="col-lg-8 ">
             <div className="about-section">
               <div className="about-section-img">
-                <img  src={about}></img>
+                <img alt=""  src={about}></img>
               </div>
               <div className="about-section-text">
                 <p>

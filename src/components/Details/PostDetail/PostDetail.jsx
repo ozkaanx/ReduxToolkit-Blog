@@ -14,19 +14,18 @@ function PostDetail({ selectNes }) {
   }
   return (
     <>
-
       <div className="details-fix">
         <div className="container ">
           <div className="details-top">
             <h2 className="details-title">{selectNes.title}</h2>
             <div className="details-date">
               <span>{selectNes.author}</span>
-              <span>{selectNes.publishedAt}</span>
+              <span>{selectNes.date}</span>
             </div>
           </div>
           <div className="detail-content">
             <div className="detail-img">
-              <img className src={selectNes.urlToImage}></img>
+              <img className src={selectNes.imageUrl} alt=""></img>
             </div>
             <div className="detail-description">
               <p>{selectNes.content}</p>

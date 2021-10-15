@@ -17,8 +17,4 @@ function Aboutbox() {
   );
 }
 
-const deneme = () =>{
-  
-}
-
 export default Aboutbox;

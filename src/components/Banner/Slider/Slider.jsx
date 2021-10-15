@@ -18,8 +18,8 @@ const BannerSlick = () => {
   };
   return (
     <Slider {...settings}>
-      <img src={slick1}></img>
-      <img src={slick2}></img>
+      <img src={slick1} alt=""></img>
+      <img src={slick2} alt=""></img>
     </Slider>
   );
 };

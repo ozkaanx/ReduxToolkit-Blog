@@ -6,12 +6,7 @@ import NavbarSocial from "./NavbarSocial/NavbarSocial";
 import NavbarButton from "./NavbarButton/NavbarButton";
 
 function Navbar() {
-  const menuItem = [
-    {
-      id: 1,
-      name: "Home",
-    },
-  ];
+
   return (
     <nav className="navbar">
       <div className="container">

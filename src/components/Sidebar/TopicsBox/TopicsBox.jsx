@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 import "./style.scss";
 
 function TopicsBox() {
@@ -7,27 +8,27 @@ function TopicsBox() {
       <h3 className="topics-title">Explore Topics</h3>
       <ul className="topics-list">
         <li>
-          <a href="">Category</a>
+          <Link to="" href>Category</Link>
           <span>(2)</span>
         </li>
         <li>
-          <a href="">Category</a>
+        <Link to="" href="true">Category</Link>
           <span>(2)</span>
         </li>
         <li>
-          <a href="">Category</a>
+        <Link to="" href>Category</Link>
           <span>(2)</span>
         </li>
         <li>
-          <a href="">Category</a>
+        <Link to="" href>Category</Link>
           <span>(2)</span>
         </li>
         <li>
-          <a href="">Category</a>
+        <Link to="" href>Category</Link>
           <span>(2)</span>
         </li>
         <li>
-          <a href="">Category</a>
+        <Link to="" href>Category</Link>
           <span>(2)</span>
         </li>
       </ul>
